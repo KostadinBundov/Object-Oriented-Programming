@@ -68,7 +68,7 @@ void Movie::addGenre(Genre genre)
 }
 void Movie::removeGenre(Genre genre)
 {
-	if (this->genres & 1)
+	if (this->genres & (uint8_t)genre)
 	{
 		this->genres ^= (uint8_t)genre;
 	}
