@@ -53,15 +53,7 @@ void Technic::setCategory(uint8_t categories)
 
 bool Technic::canRepairAppliance(const BrokenAppliance& appliance) const
 {
-	for (int i = 1; i <= 128; i<<= 1)
-	{
-		if ((uint8_t)appliance.getCategory() & this->categories) 
-		{
-			return true;
-		}
-	}
-
-	return false;
+	return ((uint8_t)appliance.getCategory() & this->categories) == (uint8_t)appliance.getCategory();
 }
 
 void Technic::repairBrokenAppliance(const BrokenAppliance& appliance)
