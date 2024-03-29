@@ -23,7 +23,6 @@ public:
 
 	const  char* getName() const;
 	const char* getUCN() const;
-	uint8_t getCategories() const;
 	double getSalary() const;
 	unsigned getExperience() const;
 
