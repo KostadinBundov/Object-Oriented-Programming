@@ -4,7 +4,7 @@
 #include <cstdint>
 
 const size_t TECHNIC_NAME_MAX_LENGTH = 32;
-const size_t UCN_LENGTH = 10;
+const size_t UCN_LENGTH = 10 + 1;
 
 class Technic
 {
