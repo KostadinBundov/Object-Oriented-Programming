@@ -1,0 +1,10 @@
+FN12345678;Ivan;Ivanov;SI;4.82
+FN23456789;Petar;Petrov;IS;5.67
+FN34567890;Georgi;Georgiev;KN;3.45
+FN45678901;Marya;Marinova;IN;5.12
+FN56789012;Irina;Dimitrova;SI;4.25
+FN67890123;Anna;Nikolova;IN;3.98
+FN78901234;Nikolai;Stanimirov;KN;4.75
+FN89012345;Dimitar;Teodorov;IS;5.33
+FN90123456;Stanimir;Angelov;SI;4.65
+FN01234567;Teodora;Ilieva;KN;4.88
