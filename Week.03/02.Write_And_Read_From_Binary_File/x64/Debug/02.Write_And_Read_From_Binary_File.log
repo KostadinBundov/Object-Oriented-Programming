@@ -1,0 +1,5 @@
+﻿  02.Write_And_Read_From_Binary_File.cpp
+C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\02.Write_And_Read_From_Binary_File\02.Write_And_Read_From_Binary_File.cpp(32,22): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\02.Write_And_Read_From_Binary_File\02.Write_And_Read_From_Binary_File.cpp(36,18): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\02.Write_And_Read_From_Binary_File\02.Write_And_Read_From_Binary_File.cpp(60,22): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  02.Write_And_Read_From_Binary_File.vcxproj -> C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\x64\Debug\02.Write_And_Read_From_Binary_File.exe
