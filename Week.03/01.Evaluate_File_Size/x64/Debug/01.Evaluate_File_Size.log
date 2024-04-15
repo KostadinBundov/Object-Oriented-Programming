@@ -1,4 +1,0 @@
-﻿  01.Evaluate_File_Size.cpp
-C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\01.Evaluate_File_Size\01.Evaluate_File_Size.cpp(6,22): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
-C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\01.Evaluate_File_Size\01.Evaluate_File_Size.cpp(10,18): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
-  01.Evaluate_File_Size.vcxproj -> C:\Users\user\Documents\University Resources\2 Семестър\ООП\Workshops\Week.03\x64\Debug\01.Evaluate_File_Size.exe
