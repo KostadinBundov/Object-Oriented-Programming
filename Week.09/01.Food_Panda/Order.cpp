@@ -1,6 +1,5 @@
 #include "Order.h"
 
-
 Order::Order(const char* restaurantName, const ProductsList& productsList) : products(productsList)
 {
 	std::strcpy(this->restaurantName, restaurantName);

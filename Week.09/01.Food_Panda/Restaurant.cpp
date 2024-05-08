@@ -1,6 +1,5 @@
 #include "Restaurant.h"
 
-
 static const unsigned TIME_TO_DELIVER_A_SINGLE_PRODUCT = 2;
 
 Restaurant::Restaurant(const char* name, const ProductsList& productslist) : products(productslist)
