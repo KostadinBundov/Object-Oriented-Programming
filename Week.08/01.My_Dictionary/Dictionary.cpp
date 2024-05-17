@@ -104,7 +104,7 @@ void Dictionary::shiftElementsBeforeAdding(size_t index)
 Dictionary::Dictionary(size_t size)
 {
 	capacity = size;
-	this->size = size;
+	this->size = 0;
 	data = new Pair * [capacity] {nullptr};
 }
 
