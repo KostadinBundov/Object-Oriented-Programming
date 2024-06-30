@@ -79,51 +79,58 @@ void printWhenUserWant(const PartialFunction*& func)
 
 int main()
 {
-	const PartialFunction* myFunc = nullptr;
-	try
+	while(true)
 	{
-		// you can also try working with funcMin.dat where we find minFunction instead of a max
-		myFunc = createFunction("func.dat");
-	}
-	catch (const std::invalid_argument& ex)
-	{
-		std::cout << "InvalidArgument!";
-		return 0;
-	}
-	catch (const std::overflow_error& ex)
-	{
-		std::cout << "Overflow error!";
-		return 0;
-	}
-	catch (const std::exception& ex)
-	{
-		std::cout << "Error!";
-		return 0;
-	}
-	catch (...)
-	{
-		std::cout << "Unknown error!!!!";
-		return 0;
+		const PartialFunction* myFunc = createFunction("func.dat");
+		delete myFunc;
 	}
 
-	std::cout << "Enter work mode:" << std::endl;
-	std::cout << "Choose between 1 and 2:" << std::endl;
-	int32_t workMode;
-	std::cin >> workMode;
 
-	if (workMode == 1)
-	{
-		std::cout << "Enter start and end separated by space:" << std::endl;
-		int32_t start;
-		int32_t end;
-		std::cin >> start >> end;
+	//const PartialFunction* myFunc = nullptr;
+	//try
+	//{
+	//	// you can also try working with funcMin.dat where we find minFunction instead of a max
+	//	myFunc = createFunction("func.dat");
+	//}
+	//catch (const std::invalid_argument& ex)
+	//{
+	//	std::cout << "InvalidArgument!";
+	//	return 0;
+	//}
+	//catch (const std::overflow_error& ex)
+	//{
+	//	std::cout << "Overflow error!";
+	//	return 0;
+	//}
+	//catch (const std::exception& ex)
+	//{
+	//	std::cout << "Error!";
+	//	return 0;
+	//}
+	//catch (...)
+	//{
+	//	std::cout << "Unknown error!!!!";
+	//	return 0;
+	//}
 
-		printValues(myFunc, start, end);
-	}
-	else if (workMode == 2)
-	{
-		printWhenUserWant(myFunc);
-	}
+	//std::cout << "Enter work mode:" << std::endl;
+	//std::cout << "Choose between 1 and 2:" << std::endl;
+	//int32_t workMode;
+	//std::cin >> workMode;
 
-	delete myFunc;
+	//if (workMode == 1)
+	//{
+	//	std::cout << "Enter start and end separated by space:" << std::endl;
+	//	int32_t start;
+	//	int32_t end;
+	//	std::cin >> start >> end;
+
+	//	printValues(myFunc, start, end);
+	//}
+	//else if (workMode == 2)
+	//{
+	//	printWhenUserWant(myFunc);
+	//}
+
+	//delete myFunc;
 }
